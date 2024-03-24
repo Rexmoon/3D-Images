@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1152F22B9A837A00FB646D /* Scene.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BD1152F12B9A837A00FB646D /* Scene.usdz */; };
+		BD27CC992B9A5BAF000E3415 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = BD27CC982B9A5BAF000E3415 /* RealityKitContent */; };
+		BD27CC9B2B9A5BAF000E3415 /* _D_ImagesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27CC9A2B9A5BAF000E3415 /* _D_ImagesApp.swift */; };
+		BD27CC9D2B9A5BAF000E3415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27CC9C2B9A5BAF000E3415 /* ContentView.swift */; };
+		BD27CC9F2B9A5BAF000E3415 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD27CC9E2B9A5BAF000E3415 /* ImmersiveView.swift */; };
+		BD27CCA12B9A5BAF000E3415 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = BD27CCA02B9A5BAF000E3415 /* ImageBasedLighting.skybox */; };
+		BD27CCA32B9A5BB0000E3415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD27CCA22B9A5BB0000E3415 /* Assets.xcassets */; };
+		BD27CCA62B9A5BB0000E3415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD27CCA52B9A5BB0000E3415 /* Preview Assets.xcassets */; };
+		BD27CCAE2B9A5C18000E3415 /* iPhone 15 Pro Max 3D model.usdz in Resources */ = {isa = PBXBuildFile; fileRef = BD27CCAD2B9A5C18000E3415 /* iPhone 15 Pro Max 3D model.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD1152F12B9A837A00FB646D /* Scene.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Scene.usdz; sourceTree = "<group>"; };
+		BD27CC932B9A5BAF000E3415 /* 3D Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD27CC972B9A5BAF000E3415 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		BD27CC9A2B9A5BAF000E3415 /* _D_ImagesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_ImagesApp.swift; sourceTree = "<group>"; };
+		BD27CC9C2B9A5BAF000E3415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD27CC9E2B9A5BAF000E3415 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		BD27CCA02B9A5BAF000E3415 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		BD27CCA22B9A5BB0000E3415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD27CCA52B9A5BB0000E3415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD27CCA72B9A5BB0000E3415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD27CCAD2B9A5C18000E3415 /* iPhone 15 Pro Max 3D model.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "iPhone 15 Pro Max 3D model.usdz"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD27CC902B9A5BAF000E3415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD27CC992B9A5BAF000E3415 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD27CC8A2B9A5BAF000E3415 = {
+			isa = PBXGroup;
+			children = (
+				BD27CC952B9A5BAF000E3415 /* 3D Images */,
+				BD27CC962B9A5BAF000E3415 /* Packages */,
+				BD27CC942B9A5BAF000E3415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD27CC942B9A5BAF000E3415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD27CC932B9A5BAF000E3415 /* 3D Images.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD27CC952B9A5BAF000E3415 /* 3D Images */ = {
+			isa = PBXGroup;
+			children = (
+				BD1152F12B9A837A00FB646D /* Scene.usdz */,
+				BD27CCAD2B9A5C18000E3415 /* iPhone 15 Pro Max 3D model.usdz */,
+				BD27CC9A2B9A5BAF000E3415 /* _D_ImagesApp.swift */,
+				BD27CC9C2B9A5BAF000E3415 /* ContentView.swift */,
+				BD27CC9E2B9A5BAF000E3415 /* ImmersiveView.swift */,
+				BD27CCA02B9A5BAF000E3415 /* ImageBasedLighting.skybox */,
+				BD27CCA22B9A5BB0000E3415 /* Assets.xcassets */,
+				BD27CCA72B9A5BB0000E3415 /* Info.plist */,
+				BD27CCA42B9A5BB0000E3415 /* Preview Content */,
+			);
+			path = "3D Images";
+			sourceTree = "<group>";
+		};
+		BD27CC962B9A5BAF000E3415 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BD27CC972B9A5BAF000E3415 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		BD27CCA42B9A5BB0000E3415 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD27CCA52B9A5BB0000E3415 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD27CC922B9A5BAF000E3415 /* 3D Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD27CCAA2B9A5BB0000E3415 /* Build configuration list for PBXNativeTarget "3D Images" */;
+			buildPhases = (
+				BD27CC8F2B9A5BAF000E3415 /* Sources */,
+				BD27CC902B9A5BAF000E3415 /* Frameworks */,
+				BD27CC912B9A5BAF000E3415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Images";
+			packageProductDependencies = (
+				BD27CC982B9A5BAF000E3415 /* RealityKitContent */,
+			);
+			productName = "3D Images";
+			productReference = BD27CC932B9A5BAF000E3415 /* 3D Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD27CC8B2B9A5BAF000E3415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BD27CC922B9A5BAF000E3415 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = BD27CC8E2B9A5BAF000E3415 /* Build configuration list for PBXProject "3D Images" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD27CC8A2B9A5BAF000E3415;
+			productRefGroup = BD27CC942B9A5BAF000E3415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD27CC922B9A5BAF000E3415 /* 3D Images */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD27CC912B9A5BAF000E3415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD27CCA32B9A5BB0000E3415 /* Assets.xcassets in Resources */,
+				BD1152F22B9A837A00FB646D /* Scene.usdz in Resources */,
+				BD27CCA62B9A5BB0000E3415 /* Preview Assets.xcassets in Resources */,
+				BD27CCA12B9A5BAF000E3415 /* ImageBasedLighting.skybox in Resources */,
+				BD27CCAE2B9A5C18000E3415 /* iPhone 15 Pro Max 3D model.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD27CC8F2B9A5BAF000E3415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD27CC9D2B9A5BAF000E3415 /* ContentView.swift in Sources */,
+				BD27CC9B2B9A5BAF000E3415 /* _D_ImagesApp.swift in Sources */,
+				BD27CC9F2B9A5BAF000E3415 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD27CCA82B9A5BB0000E3415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		BD27CCA92B9A5BB0000E3415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		BD27CCAB2B9A5BB0000E3415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3D Images/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P3KS94G5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luna.-D-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		BD27CCAC2B9A5BB0000E3415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3D Images/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P3KS94G5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.luna.-D-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD27CC8E2B9A5BAF000E3415 /* Build configuration list for PBXProject "3D Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD27CCA82B9A5BB0000E3415 /* Debug */,
+				BD27CCA92B9A5BB0000E3415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD27CCAA2B9A5BB0000E3415 /* Build configuration list for PBXNativeTarget "3D Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD27CCAB2B9A5BB0000E3415 /* Debug */,
+				BD27CCAC2B9A5BB0000E3415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD27CC982B9A5BAF000E3415 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BD27CC8B2B9A5BAF000E3415 /* Project object */;
+}
